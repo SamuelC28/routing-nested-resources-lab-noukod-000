@@ -1200,6 +1200,7 @@ ActionController::RoutingError (No route matches [GET] "/artists/1/post/1"):
   Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (16.0ms)
   Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
   Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (77.1ms)
+<<<<<<< HEAD
 
 
 Started GET "/artists/1/post/1" for 190.102.85.204 at 2019-01-29 19:40:05 +0000
@@ -1374,3 +1375,5 @@ Processing by SongsController#index as HTML
   [1m[35mArtist Load (0.1ms)[0m  SELECT  "artists".* FROM "artists" WHERE "artists"."id" = ? LIMIT 1  [["id", 7]]
   Rendered songs/index.html.erb within layouts/application (20.1ms)
 Completed 200 OK in 27ms (Views: 25.2ms | ActiveRecord: 1.0ms)
+=======
+>>>>>>> 9fd16f935956cefdd8f3bde41215f071550d9cb3
